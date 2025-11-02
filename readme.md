@@ -495,7 +495,6 @@ jobs:
 
 ### README Örneği:
 
-````markdown
 # Todo App 📝
 Bu proje, basit bir görev yönetim uygulamasıdır.
 
