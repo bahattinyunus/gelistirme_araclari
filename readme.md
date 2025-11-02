@@ -504,7 +504,7 @@ Bu proje, basit bir görev yönetim uygulamasıdır.
 - Docker ile dağıtım
 
 ## Kurulum
-```bash
+
 git clone https://github.com/kullaniciadi/todo-app.git
 npm install
 npm start
@@ -528,7 +528,7 @@ Her araç, sürecin belirli bir aşamasında **sistemin çarkı** gibi görev ya
 | Bakım | Sentry, Dependabot | Hata takibi |
 | Dokümantasyon | Markdown, Swagger | Bilgi paylaşımı |
 
----
+
 
 > 🔥 “Gerçek yazılımcı, kullandığı araçları değil; bu araçların birlikte nasıl dans ettiğini bilir.”
 
