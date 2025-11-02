@@ -537,5 +537,6 @@ Her araç, sürecin belirli bir aşamasında **sistemin çarkı** gibi görev ya
 
 ```
 
-#   g e l i s t i r m e _ a r a c l a r -  
+#   g e l i s t i r m e _ a r a c l a r - 
+ 
  
