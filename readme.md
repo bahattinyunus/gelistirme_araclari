@@ -168,8 +168,7 @@ Artık temel tanımları geçtik, şimdi biraz daha *“işin mutfağına”* in
 
 ---
 
-```markdown
-# Yazılım Geliştirme Araçları (Devam)
+# Yazılım Geliştirme Araçları 
 
 ## 6. Entegre Ekosistemler
 
@@ -321,7 +320,7 @@ Bir geliştirici ne kadar çok aracı tanırsa, o kadar güçlü bir üretim alt
 6. **CI/CD (GitHub Actions)** akışını dene  
 
 Bu 6 adım seni yazılım dünyasında hem teknik hem de profesyonel olarak bir adım öne taşır 🚀
-```
+
 
 
 
@@ -366,7 +365,7 @@ Ama burada odak, **yazılım geliştirme araçlarının birlikte nasıl çalış
    git clone https://github.com/kullaniciadi/todo-app.git
    cd todo-app
    npm init -y
-````
+```
 
 3. Her özellik (örneğin “görev silme”) için **yeni bir branch** açılır:
 
