@@ -508,11 +508,10 @@ Bu proje, basit bir görev yönetim uygulamasıdır.
 git clone https://github.com/kullaniciadi/todo-app.git
 npm install
 npm start
-````
 
-```
 
----
+
+
 
 ## 8. Sonuç 🎯
 
@@ -533,5 +532,4 @@ Her araç, sürecin belirli bir aşamasında **sistemin çarkı** gibi görev ya
 
 > 🔥 “Gerçek yazılımcı, kullandığı araçları değil; bu araçların birlikte nasıl dans ettiğini bilir.”
 
-```
 .
