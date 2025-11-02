@@ -504,11 +504,11 @@ Bu proje, basit bir görev yönetim uygulamasıdır.
 - Docker ile dağıtım
 
 ## Kurulum
-
+```bash 
 git clone https://github.com/kullaniciadi/todo-app.git
 npm install
 npm start
-
+```
 
 
 
