@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo Uygulaması - Örnek Proje</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📝 Todo Uygulaması</h1>
+            <p class="subtitle">Yazılım Geliştirme Araçları Eğitimi - Örnek Proje</p>
+        </header>
+
+        <div class="todo-form">
+            <input 
+                type="text" 
+                id="todoInput" 
+                placeholder="Yeni görev ekle..." 
+                maxlength="100"
+            >
+            <button id="addBtn">Ekle</button>
+        </div>
+
+        <div class="todo-controls">
+            <button id="clearCompletedBtn" class="btn-secondary">
+                Tamamlananları Temizle
+            </button>
+            <span id="todoCount" class="todo-count">0 görev</span>
+        </div>
+
+        <div id="todoList" class="todo-list">
+            <!-- Görevler buraya eklenecek -->
+        </div>
+
+        <div id="errorMessage" class="error-message" style="display: none;"></div>
+    </div>
+
+    <footer>
+        <p>Bu proje, yazılım geliştirme araçlarının kullanımını göstermek için oluşturulmuştur.</p>
+        <p>API Endpoint: <code>/api/todos</code></p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
+

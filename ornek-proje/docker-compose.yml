@@ -1,0 +1,26 @@
+# docker-compose.yml
+# Bu dosya, uygulamayı ve gerekli servisleri birlikte çalıştırmak için kullanılır
+
+version: '3.8'
+
+services:
+  # Todo uygulaması
+  todo-app:
+    build: .
+    container_name: todo-app
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+    volumes:
+      # Geliştirme için kod değişikliklerini izle (opsiyonel)
+      - ./public:/app/public
+    restart: unless-stopped
+    networks:
+      - todo-network
+
+networks:
+  todo-network:
+    driver: bridge
+

@@ -1,5 +1,40 @@
 # Yazılım Geliştirme Araçları Ders Notu
 
+## 📑 İçindekiler
+
+### Temel Konular
+- [1. Giriş](#1-giriş)
+- [2. Yazılım Geliştirme Süreci (SDLC)](#2-yazılım-geliştirme-süreci-software-development-life-cycle---sdlc)
+- [3. Yazılım Geliştirme Araçlarının Türleri](#3-yazılım-geliştirme-araçlarının-türleri)
+  - [3.1. Entegre Geliştirme Ortamları (IDE)](#31-entegre-geliştirme-ortamları-ide)
+  - [3.2. Sürüm Kontrol Sistemleri](#32-sürüm-kontrol-sistemleri-version-control-systems)
+  - [3.3. Proje Yönetim Araçları](#33-proje-yönetim-araçları)
+  - [3.4. Derleyiciler ve Yorumlayıcılar](#34-derleyiciler-ve-yorumlayıcılar)
+  - [3.5. Hata Ayıklama Araçları](#35-hata-ayıklama-debugging-araçları)
+  - [3.6. Test Araçları](#36-test-araçları)
+  - [3.7. CI/CD Araçları](#37-sürekli-entegrasyon-ve-dağıtım-cicd-araçları)
+  - [3.8. Paket Yönetim Sistemleri](#38-paket-yönetim-sistemleri)
+- [4. Yazılım Geliştirme Ortamı Kurulumu](#4-yazılım-geliştirme-ortamı-kurulumu-örnek)
+- [5. Sonuç](#5-sonuç)
+
+### İleri Seviye Konular
+- [6. Entegre Ekosistemler](#6-entegre-ekosistemler)
+- [7. Yazılımda Otomasyonun Rolü](#7-yazılımda-otomasyonun-rolü)
+- [8. API Geliştirme ve Test Araçları](#8-api-geliştirme-ve-test-araçları)
+- [9. Kod Kalitesi ve Analiz Araçları](#9-kod-kalitesi-ve-analiz-araçları)
+- [10. Takım Çalışması ve Kod İnceleme](#10-yazılım-geliştirme-sürecinde-takım-çalışması)
+- [11. Dokümantasyon Araçları](#11-yazılımda-dokümantasyon-araçları)
+- [12. Güvenlik](#12-yazılım-geliştirme-sürecinde-güvenlik)
+- [13. Bulut Tabanlı Geliştirme Araçları](#13-bulut-tabanlı-geliştirme-araçları)
+- [14. Sonuç](#14-sonuç)
+- [15. Öğrenciler İçin Yol Haritası](#15-ekstra-öğrenciler-için-öneri-yol-haritası)
+
+### Pratik Örnek
+- [Gerçek Bir Yazılım Projesinde Araçların Kullanımı](#gerçek-bir-yazılım-projesinde-araçların-kullanımı)
+  - [Örnek Proje: Todo Uygulaması](#örnek-proje-todo-görev-listesi-uygulaması)
+
+---
+
 ## 1. Giriş
 
 Yazılım geliştirme araçları, bir yazılım projesinin planlama, kodlama, test etme, hata ayıklama ve dağıtım aşamalarında kullanılan programlardır.  
@@ -530,6 +565,24 @@ Her araç, sürecin belirli bir aşamasında **sistemin çarkı** gibi görev ya
 
 
 
-> 🔥 “Gerçek yazılımcı, kullandığı araçları değil; bu araçların birlikte nasıl dans ettiğini bilir.”
+> 🔥 "Gerçek yazılımcı, kullandığı araçları değil; bu araçların birlikte nasıl dans ettiğini bilir."
 
-.
+---
+
+## 📚 Ek Dosyalar
+
+Bu repository'de aşağıdaki ek kaynaklar bulunmaktadır:
+
+- **Egitim_Sunumu.pdf** - Ders sunumu ve görsel materyaller
+- **Terimler_Sozlugu.pdf** - Yazılım geliştirme araçları terimler sözlüğü
+- **ornek-proje/** - Çalışan bir Todo uygulaması örneği (Backend API + Frontend + Docker + CI/CD)
+
+---
+
+## 🤝 Katkıda Bulunma
+
+Bu eğitim materyali açık kaynaklıdır. İyileştirme önerileri ve katkılarınızı bekliyoruz!
+
+## 📄 Lisans
+
+Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için [LICENSE](LICENSE) dosyasına bakın.

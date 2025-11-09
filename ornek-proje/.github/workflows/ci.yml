@@ -1,0 +1,61 @@
+# GitHub Actions CI/CD Workflow
+# Bu dosya, kod push edildiğinde otomatik test çalıştırır
+
+name: Node.js CI
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [18.x, 20.x]
+
+    steps:
+    - name: Repository'yi checkout et
+      uses: actions/checkout@v3
+
+    - name: Node.js ${{ matrix.node-version }} kurulumu
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+        cache: 'npm'
+
+    - name: Bağımlılıkları yükle
+      run: npm ci
+
+    - name: Testleri çalıştır
+      run: npm test
+
+    - name: Lint kontrolü (opsiyonel)
+      run: |
+        echo "Lint kontrolü burada yapılabilir"
+        # npm run lint (eğer ESLint kuruluysa)
+
+  build:
+    runs-on: ubuntu-latest
+    needs: test
+
+    steps:
+    - name: Repository'yi checkout et
+      uses: actions/checkout@v3
+
+    - name: Docker imajı oluştur
+      run: |
+        docker build -t todo-app:latest .
+        echo "Docker imajı başarıyla oluşturuldu"
+
+    - name: Docker imajını test et
+      run: |
+        docker run -d -p 3000:3000 --name test-container todo-app:latest
+        sleep 5
+        curl -f http://localhost:3000/health || exit 1
+        docker stop test-container
+        docker rm test-container
+
