@@ -1,0 +1,15 @@
+# Python Paket Yönetimi Örneği
+# Kurulum: pip install -r requirements.txt
+
+# Test framework
+pytest==7.4.3
+
+# Code formatting
+black==23.11.0
+
+# Linting
+pylint==3.0.2
+
+# Type checking
+mypy==1.7.1
+

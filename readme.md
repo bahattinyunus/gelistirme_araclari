@@ -575,6 +575,7 @@ Bu repository'de aşağıdaki ek kaynaklar bulunmaktadır:
 
 - **Egitim_Sunumu.pdf** - Ders sunumu ve görsel materyaller
 - **Terimler_Sozlugu.pdf** - Yazılım geliştirme araçları terimler sözlüğü
+- **kod-ornekleri/** - Farklı programlama dillerinde kod örnekleri (Python, JavaScript, Java, C#)
 - **ornek-proje/** - Çalışan bir Todo uygulaması örneği (Backend API + Frontend + Docker + CI/CD)
 
 ---

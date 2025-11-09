@@ -1,0 +1,23 @@
+{
+  "name": "javascript-ornekleri",
+  "version": "1.0.0",
+  "description": "Yazılım Geliştirme Araçları - JavaScript Kod Örnekleri",
+  "main": "todo-app.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": [
+    "javascript",
+    "todo",
+    "egitim"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "eslint": "^8.54.0"
+  }
+}
+
