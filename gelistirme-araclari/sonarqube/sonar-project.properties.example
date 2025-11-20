@@ -1,0 +1,4 @@
+sonar.projectKey=todo-app
+sonar.sources=.
+sonar.host.url=http://localhost:9000
+sonar.login=DEGISTIR_TOKEN
