@@ -102,7 +102,72 @@ Takıldın mı? Biz buradayız:
 
 ---
 
+## ⚙️ Gelişmiş Özellikler
+
+- **Sabitlenmiş Notlar:** Önemli notlarını listenin en üstüne sabitle.
+- **Favoriler:** Sık kullandığın notları favorilere ekle.
+- **Arşivleme:** Eski ama silmek istemediğin notları arşive taşı.
+- **Koyu / Açık Tema:** Gözünü yormayan tema modları arasında geçiş yap.
+
+---
+
+## ⌨️ Klavye Kısayolları
+
+Daha hızlı olmak için klavyeyi kullan:
+
+- **Yeni not:** `Ctrl + N`
+- **Kaydet:** `Ctrl + S`
+- **Arama:** `Ctrl + F`
+- **Kalın metin:** `Ctrl + B`
+- **İtalik metin:** `Ctrl + I`
+- **Liste oluştur:** `Ctrl + L`
+
+> İpucu: Kısayollar uygulama ayarlarından özelleştirilebilir şekilde tasarlanabilir.
+
+---
+
+## ☁️ Yedekleme ve Senkronizasyon
+
+Notlarını kaybetmemek için şu senaryoları destekleyecek şekilde kurgulayabilirsin:
+
+- **Otomatik Yedekleme:** Belirli aralıklarla notları buluta veya yerel bir klasöre yedekle.
+- **Dışa Aktarma:** Notları `.md` veya `.pdf` formatında dışa aktar.
+- **Bulut Senkronizasyonu:** Birden fazla cihazda aynı hesabı kullanarak notlarını senkron tut.
+
+> Geliştirici Notu: Yedekleme/senkronizasyon için Google Drive, Dropbox veya Git tabanlı bir yapı entegre edilebilir.
+
+---
+
+## 🔐 Güvenlik ve Gizlilik
+
+- **Şifreli Notlar:** Hassas notlar için parola koruması veya uçtan uca şifreleme desteği planlanabilir.
+- **Cihaz Kilidi Entegrasyonu:** Uygulama, cihaz kilidi (PIN/şifre/parmak izi) ile birlikte çalışabilir.
+- **Veri İhracı:** Kullanıcı, verilerini tek tıkla indirip başka bir yere taşıyabilmeli.
+
+> Unutma: Kullanıcı verisi her zaman kullanıcınındır. Açık ve şeffaf gizlilik politikası önemlidir.
+
+---
+
+## 🧩 Örnek Kullanım Senaryoları
+
+- **Öğrenciler için:** Ders notları, özetler, sınav çalışma planları.
+- **Geliştiriciler için:** Kod snippet’leri, terminal komutları, TODO listeleri.
+- **İş hayatı için:** Toplantı notları, aksiyon maddeleri, proje takibi.
+- **Kişisel kullanım için:** Günlük, alışveriş listesi, fikir notları.
+
+Her senaryo için ayrı kategori ve etiket yapısı kurarak notlarını kusursuz şekilde organize edebilirsin.
+
+---
+
+## 🧭 Yol Haritası (Roadmap) Fikirleri
+
+- Mobil uygulama (iOS/Android)
+- Takvim entegrasyonu (hatırlatıcılar, deadline’lar)
+- Notlar arası bağlantı (Wiki tarzı linkler)
+- Ortak çalışma (paylaşılabilir notlar, yorum sistemi)
+- Google Drive entegrasyonunun arka planda otomatik çalışması
+
+Bu README, hem son kullanıcıya hem de geliştiriciye Untitled Notebook’un nereye gidebileceği konusunda net bir resim vermek için tasarlanmıştır.
+
 ✨ **Not alma artık sıkıcı değil!**
 🎉 Untitled Notebook ile notlarını süper organize et, şıklık ve hız bir arada! 🚀
-
-```
